@@ -17,7 +17,7 @@ def inserir_antes_pais_registado(lista_ligada, registado, elemento):
     return lista_ligada
 
 def inserir_num_determinado_indice(lista_ligada, valor, elemento):
-    lista_ligada.insert_at_index(elemento, int(valor))
+    lista_ligada.insert_at_index(int(valor), elemento)
     return lista_ligada
 
 def verificar_numero_elementos(lista_ligada):

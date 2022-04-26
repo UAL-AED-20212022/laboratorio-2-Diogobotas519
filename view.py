@@ -4,7 +4,11 @@ import controller
 def main ():
     lista_ligada = LinkedList()
     while True:
-        comandos = input().split(" ")
+        try:
+            comandos = input().split(" ")
+        except EOFError:
+            return
+    
 
         if comandos [0] == "RPI":
             if controller.inserir_inicio(lista_ligada, comandos[1]):

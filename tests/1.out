@@ -8,52 +8,45 @@ Chile
 Argentina  
 Portugal  
 Espanha  
-O nÃºmero de elementos sÃ£o 4.
-<models.Node.Node object at 0x00000176D3CD54F0>
+O número de elementos são 4.
+<models.Node.Node object at 0x000001C5F8D7C340>
+item not in the list
 Chile  
 Argentina  
 Portugal  
 Espanha  
-Franca  
-<models.Node.Node object at 0x00000176D3CD54F0>
+<models.Node.Node object at 0x000001C5F8D7C340>
+item not in the list
 Chile  
 Argentina  
 Portugal  
-Italia  
 Espanha  
-Franca  
-China  
+<models.Node.Node object at 0x000001C5F8D7C340>
+item not in the list
 Chile  
 Argentina  
 Portugal  
-Italia  
 Espanha  
-Franca  
-China  
+Chile  
 Japao  
-Chile  
 Argentina  
 Portugal  
-Italia  
 Espanha  
-Franca  
-China  
+Chile  
 Japao  
 Angola  
-Chile  
 Argentina  
 Portugal  
-Italia  
 Espanha  
-Franca  
-O nÃºmero de elementos sÃ£o 9.
+O número de elementos são 6.
 Item found
-O paÃ­s Portugal encontra-se na lista.
+O país Portugal encontra-se na lista.
 item not found
-O paÃ­s Alemanha nÃ£o se encontra na lista.
-O paÃ­s China foi eliminado da lista.
-O nÃºmero de elementos sÃ£o 8.
-O paÃ­s Franca foi eliminado da lista.
-O nÃºmero de elementos sÃ£o 7.
-O paÃ­s Chile foi eliminado da lista.
-O nÃºmero de elementos sÃ£o 6.
+O país Alemanha não se encontra na lista.
+O país Chile foi eliminado da lista.
+O número de elementos são 5.
+O país Espanha foi eliminado da lista.
+O número de elementos são 4.
+item not found
+O país Chile não se encontra na lista.
+O número de elementos são 4.
