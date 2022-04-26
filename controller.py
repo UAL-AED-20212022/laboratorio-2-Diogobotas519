@@ -8,12 +8,12 @@ def inserir_final(lista_ligada, elemento):
     lista_ligada.insert_at_end(elemento)
     return lista_ligada
 
-def inserir_apos_pais_registado(lista_ligada, registado, elemento):
-    lista_ligada.insert_after_item(registado, elemento)
+def inserir_apos_pais_registado(lista_ligada, elemento, registado):
+    lista_ligada.insert_after_item(elemento, registado)
     return lista_ligada
 
-def inserir_antes_pais_registado(lista_ligada, registado, elemento):
-    lista_ligada.insert_before_item(registado, elemento)
+def inserir_antes_pais_registado(lista_ligada,  elemento, registado):
+    lista_ligada.insert_before_item(elemento, registado)
     return lista_ligada
 
 def inserir_num_determinado_indice(lista_ligada, valor, elemento):
@@ -41,9 +41,5 @@ def eliminar_ultimo_elemento(lista_ligada):
 
 
 def eliminar_pais_selecionado(lista_ligada, elemento):
-    if lista_ligada.search_item(elemento):
         lista_ligada.delete_element_by_value(elemento)
         return lista_ligada
-
-    else:
-        return False

@@ -21,12 +21,12 @@ def main ():
 
 
         if comandos[0] == "RPDE":
-            if controller.inserir_apos_pais_registado(lista_ligada, comandos[1], comandos[2]):
+            if controller.inserir_apos_pais_registado(lista_ligada, comandos[2], comandos[1]):
                 lista_ligada.traverse_list()
 
 
         if comandos[0] == "RPAE":
-            if controller.inserir_antes_pais_registado(lista_ligada, comandos[1], comandos[2]):
+            if controller.inserir_antes_pais_registado(lista_ligada, comandos[2], comandos[1]):
                 lista_ligada.traverse_list()
             
 
@@ -61,8 +61,7 @@ def main ():
 
 
         if comandos[0] == "EP":
-            if controller.verificar_pais_lista(lista_ligada, comandos[1]):
-                controller.eliminar_pais_selecionado(lista_ligada, comandos[1])
+            if controller.eliminar_pais_selecionado(lista_ligada, comandos[1]):
                 print(f"O país {comandos[1]} foi eliminado da lista.")
             else:
                 print(f"O país {comandos[1]} não se encontra na lista.")
