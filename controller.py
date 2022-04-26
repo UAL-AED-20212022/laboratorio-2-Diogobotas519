@@ -41,5 +41,5 @@ def eliminar_ultimo_elemento(lista_ligada):
 
 
 def eliminar_pais_selecionado(lista_ligada, elemento):
-        lista_ligada.delete_element_by_value(elemento)
-        return lista_ligada
+    lista_ligada.delete_element_by_value(elemento)
+    return lista_ligada
